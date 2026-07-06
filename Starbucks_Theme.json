@@ -1,0 +1,76 @@
+{
+  "name": "Starbucks",
+  "dataColors": [
+    "#00704A",
+    "#1E3932",
+    "#D4E9E2",
+    "#C6A96C",
+    "#000000",
+    "#00A862",
+    "#6E6259",
+    "#F2F0EB"
+  ],
+  "background": "#F2F0EB",
+  "foreground": "#1E3932",
+  "tableAccent": "#00704A",
+  "good": "#00A862",
+  "neutral": "#C6A96C",
+  "bad": "#6E6259",
+  "maximum": "#00704A",
+  "center": "#C6A96C",
+  "minimum": "#D4E9E2",
+  "null": "#D9D9D9",
+  "textClasses": {
+    "callout": {
+      "fontFace": "Segoe UI Semibold",
+      "color": "#00704A"
+    },
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "color": "#1E3932"
+    },
+    "header": {
+      "fontFace": "Segoe UI Semibold",
+      "color": "#1E3932"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "color": "#1E3932"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#D4E9E2" } }
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": { "solid": { "color": "#00704A" } },
+            "fontSize": 28,
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": { "solid": { "color": "#1E3932" } },
+            "fontSize": 12
+          }
+        ]
+      }
+    }
+  }
+}
